@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.scss'
 import { Outlet, useLocation, useNavigate } from 'react-router-dom'
-import { color_bg_body_dark, color_bg_body_light, color_font_1_dark, color_font_2_dark } from './constants/color';
 
 function App() {
   let location = useLocation();
